@@ -7,7 +7,6 @@ var SLIDE_CONFIG = {
     usePrettify: true, // Default: true
     enableSlideAreas: true, // Default: true. False turns off the click areas on either slide of the slides.
     enableTouch: true, // Default: true. If touch support should enabled. Note: the device must support touch.
-    //analytics: 'UA-32630298-1',
     favIcon: 'images/chrome-logo-tiny.png',
     fonts: [
       'Open Sans:regular,semibold,italic,italicsemibold',
@@ -20,13 +19,13 @@ var SLIDE_CONFIG = {
 
   // Author information
   presenters: [{
-    name: 'Eric Bidelman',
-    gplus: 'http://plus.ericbidelman.com',
-    title: 'Senior Developer Programs Engineer',
-    company: 'Google Chrome Team',
-    twitter: '@ebidel',
-    www: 'http://www.ericbidelman.com',
-    github: 'https://github.com/ebidel'
+    name: 'Ido Green',
+    gplus: 'http://plus.ly/greenido',
+    title: 'Developer Advocate',
+    company: 'Google',
+    twitter: '@greenido',
+    www: 'http://greenido.wordpress.com',
+    github: 'https://github.com/greenido'
   }]
 };
 
