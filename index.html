@@ -47,7 +47,7 @@ URL: https://code.google.com/p/io-2012-slides
       <h1 data-config-title><!-- populated from slide_config.json --></h1>
       <h2 data-config-subtitle><!-- populated from slide_config.json --></h2>
       <p data-config-presenter><!-- populated from slide_config.json --></p>
-      <p><a href="http://greenido.wordpress.com/2012/06/29/google-io-2012-day-2/">Watch my talk from Google I/O 2012</a></p>
+      <p><a href="http://greenido.wordpress.com/2012/06/29/google-io-2012-day-2/">My talk from Google I/O 2012</a></p>
     </hgroup>
   </slide>
 
@@ -658,20 +658,36 @@ function startWorker(settings) {
 self.addEventListener('message', function(e) {
   doSomeWork();
 };
-
 function doSomeWork() {
   importScripts('http://url?callBack=handleWork');
 }
-
 function handleWork() {
   postMessage(result);
 }
      </pre>
-     <a href="http://greenido.github.com/Web-Workers-Examples-/">
-      The book examples
-     </a>
     </article>
   </slide>
+
+  <slide>
+    <h3>Web Worker - Debug</h3>
+    <article id="webworker-box"> <!-- class="flexbox vcenter"-->
+      
+      <div>
+        <img src="http://greenido.files.wordpress.com/2011/11/debug-webworkers-on-chrome.png" alt="debug worker in chrome devtool"/>
+      </div>
+
+      <div>
+       <ul>
+        <li>if (Modernizr.webworkers)</li>
+        <li><a href="http://greenido.wordpress.com/2011/11/03/web-workers-part-3-out-of-3-shared-wrokers/">Shared Workers</a> - Shared web workers allow any number of scripts to communicate with a single worker</li>
+        <li>
+          <a href="http://greenido.github.com/Web-Workers-Examples-/">The book examples
+          </a>
+        </li>
+      </div>
+    </article>   
+  </slide>
+
 
   <slide class="can nobackground">
     <article class="flexbox vcenter">
