@@ -185,7 +185,7 @@ URL: https://code.google.com/p/io-2012-slides
 
   <slide class="segue">
     <article class="flexbox vcenter auto-fadein">
-      <h2 class="black">So why is flexbox so awesome?</h2>
+      <h2 class="black">Why is flexbox so awesome?</h2>
     </article>
   </slide>
 
@@ -667,10 +667,11 @@ function handleWork() {
   postMessage(result);
 }
      </pre>
+     <a href="http://greenido.github.com/Web-Workers-Examples-/">
+      The book examples
+     </a>
     </article>
   </slide>
-
-
 
   <slide class="can nobackground">
     <article class="flexbox vcenter">
@@ -746,15 +747,6 @@ xhr.open('GET', '/path/to/image.png', true);
 xhr.responseType = 'arraybuffer';
 xhr.onload = function(e) {
   <b>window.<a data-tooltip-property="requestFileSystem" data-tooltip-support='["webkit"]' data-tooltip-js class="bold"></a>(TEMPORARY, 1024 * 1024, function(fs) {</b>
-
-
-
-
-
-
-
-
-
   <b>}, onError);</b>
 };
 
@@ -845,7 +837,7 @@ window.<a data-tooltip-property="resolveLocalFileSystemURL" data-tooltip-support
 
   <slide>
     <hgroup>
-      <h2>Moar Callbackzzzzzz!</h2>
+      <h2>More Callbacks!</h2>
     </hgroup>
     <article class="">
       <pre class="prettyprint" data-lang="js">
@@ -868,13 +860,6 @@ xhr.onload = function(e) {
 
 xhr.send();
 </pre>
-    </article>
-  </slide>
-
-  <slide class="segue">
-    <article class="flexbox vcenter auto-fadein">
-      <q style="font-size: 60px;">Callback spaghetti is hard,... let's go shopping!</q>
-      <div class="build toppadding"><div class="author">Eric Bidelman</div></span>
     </article>
   </slide>
 
@@ -966,15 +951,6 @@ filer.<b>write</b>('styles.css', {data: b, type: b.type}, function(entry, writer
         <img src="images/browser_logos/opera_logo.png">
         <img src="images/browser_logos/ie10_logo.png" class="supported">
       </div>
-    </article>
-  </slide>
-
-  <slide class="can cant nobackground">
-    <article class="flexbox vcenter">
-      <hgroup>
-        <h2 class="white auto-fadein">sudo make me a sandwich</h2>
-        <span class="build"><h1 class="stamp" style="left:30%">BUSTED</h1></span>
-      </hgroup>
     </article>
   </slide>
 
@@ -1192,6 +1168,7 @@ if (ab.byteLength) {
   alert('Transferables are not supported in your browser!');
 } else {
   // Transferables are supported.
+  // PITA = pain in the...
 }
 </pre>
     </article>
@@ -1396,25 +1373,7 @@ analyser.connect(ctx.destination);
   </slide>
 
 <!--
-  <slide hidden>
-    <hgroup>
-      <h2>Demos</h2>
-    </hgroup>
-    <article>
-    <ul>
-      <li><a href="http://www.technitone.com/">Technitone</a></li>
-      <li><a href="http://labs.dinahmoe.com/plink/">Plink</a></li>
-      <li><a href="http://static.echonest.com/BohemianRhapsichord/index.html">Bohemian Rhapsichord</a></li>
-      <li><a href="http://airtightinteractive.com/demos/js/reactive/">3D Audio Visualizer</a></li>
-      <li><a href="http://www.htmlfivewow.com/demos/hal/index.html">GAL 9000</a></li>
-      <li><a href="http://www.htmlfivewow.com/demos/audio-visualizer/index.html">HTML5Wow Visualizer</a></li>
-      <li><a href="http://alteredqualia.com/three/examples/webgl_city.html">WebGL City</a></li>
-      <li><a href="http://www.iquilezles.org/apps/soundtoy/index.html">Sound Toy</a></li>
-    </ul>
-  </article>
-  </slide>
-
-
+  
   <slide hidden>
     <aside class="note">
       <section class="centered">
@@ -1537,9 +1496,28 @@ socket.onmessage = function(e) {
     </article>
   </slide>
 
+  <slide>
+    <article class="flexbox vcenter auto-fadein">
+      <h3>Chrome Frame</h3>
+      <img src="images/cf-logo.png" class="centered quimby_search_image" style="height:250px">
+      <p>Meta tag: </p>
+      <pre class="prettyprint">
+        &lt;meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+      </pre>
+
+       
+      <p>Header: </p>
+      <pre class="prettyprint">
+        X-UA-Compatible: IE=Edge,chrome=1
+      </pre>
+
+    </article>
+  </slide>
+
+  <!--### Final words of wisdom -->
   <slide class="segue">
     <article class="flexbox vcenter auto-fadein">
-      <h2 class="black">Finito.</h2>
+      <h2 class="black">Zehu Finito.</h2>
     </article>
   </slide>
 
@@ -1564,7 +1542,7 @@ socket.onmessage = function(e) {
     <aside class="gdbar right"><img src="images/chrome_logo.png"></aside>
     <article class="flexbox vleft auto-fadein">
       <h2>&lt; Thank You! &gt;</h2>
-      <p>Source: <a href="https://github.com/ebidel/html5can" class="white" style="border:none">github.com/ebidel/html5can</a></p>
+      <p>Source: <a href="https://github.com/greenido/html5can" class="white" style="border:none">github.com/greenido/html5can</a></p>
     </article>
     <p class="auto-fadein" data-config-contact>
       <!-- populated from slide_config.json -->
