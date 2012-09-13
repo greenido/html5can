@@ -17,3 +17,11 @@ The Web Can Do That!? presentation that base on Eric's excellent talk from Googl
 * Stream Multimedia - Binary WebSockets
 * Chrome Frame
 
+<<<<<<< HEAD
+=======
+
+--
+Any comments and/or pull request are most welcome.
+--
+
+>>>>>>> tuning the talk for devfestX London
