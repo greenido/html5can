@@ -3,7 +3,7 @@ http://ido-green.appspot.com/html5can/index.html
 
 The Web Can Do That!? presentation that base on Eric's excellent talk from Google IO 2012.
 
-** TOC
+# TOC
 * Bold Demos - Show the power of HTML5 (as of the summer of 2012)
 * CSS For Web Apps - flexbox
 * Dynamic CSS - clac()
@@ -17,11 +17,7 @@ The Web Can Do That!? presentation that base on Eric's excellent talk from Googl
 * Stream Multimedia - Binary WebSockets
 * Chrome Frame
 
-<<<<<<< HEAD
-=======
 
---
-Any comments and/or pull request are most welcome.
---
+### Any comments and/or pull request are most welcome.
 
->>>>>>> tuning the talk for devfestX London
+
