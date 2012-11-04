@@ -1,7 +1,9 @@
+http://ido-green.appspot.com/html5-devtools-cros/index.html
+===========================================================
+
+The pervious version that was based on Eric B. great show from I/O 2012:
 http://ido-green.appspot.com/html5can/index.html
 ================================================
-
-The Web Can Do That!? presentation that base on Eric's excellent talk from Google IO 2012.
 
 # TOC
 * Bold Demos - Show the power of HTML5 (as of the summer of 2012)
@@ -16,6 +18,9 @@ The Web Can Do That!? presentation that base on Eric's excellent talk from Googl
 * Make <audio> Sexy Again
 * Stream Multimedia - Binary WebSockets
 * Chrome Frame
+
+* ChromeOS update
+* Devtools new cool things - http://greenido.wordpress.com/2012/10/25/the-new-chromebook-and-new-devtools-tips/
 
 
 ### Any comments and/or pull request are most welcome.
