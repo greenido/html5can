@@ -1,8 +1,8 @@
 var SLIDE_CONFIG = {
   // Slide settings
   settings: {
-    title: 'The Web Can Do That!?',
-    subtitle: 'Adventures Into HTML5 - Sep 2012',
+    title: 'Great Web Apps - How? Why?',
+    subtitle: 'HTML5 lastest and greatest - Nov 2012',
     useBuilds: true, // Default: true. False will turn off slide animation builds.
     usePrettify: true, // Default: true
     enableSlideAreas: true, // Default: true. False turns off the click areas on either slide of the slides.
